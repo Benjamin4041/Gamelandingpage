@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+margin:0;
+padding:0;
+}
+/* modile */
+@media screen and (max-width:767px){
+    .section1bg{
+        background-image: url(../../public/assets/bg.svg);
+        min-height: 100dvh;
+        background-position:42% 12%;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .innerdiv{
+        background-image:radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%);
+        min-height: 100vh;
+    }
+    .section2bg{
+        background-image: url(../../public/assets/bg\ image\ 2.svg);
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .section2_innerdiv{
+        background: radial-gradient(136.03% 54.57% at 50% 48.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080A0B 99.74%);
+    }
+    .section3bg{
+        background-image: url(../../public/assets/bg3test.svg);
+        /* background-position:30%; */
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    /* .section3_innerdiv{
+        background: radial-gradient(17.45% 34.77% at 31.45% 40.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 172.03%, #080A0B 99.74%);
+        background-position: -14px;
+    } */
+    .section4bg{
+        background-image: url(../../public/assets/bg4mobile.svg);
+        /* background-position:30%; */
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .section5bg{
+        background-image: url(../../public/assets/bg6mobile.svg);
+    }
+    .innerdiv5{
+        /* background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%); */
+        background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%);
+    }
+    .btn3{
+        background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    }
+    .innerdiv6{
+        background:rgba(8, 10, 11, 1);
+    }
+    .skulllighting{
+        background: radial-gradient(45.43% 53.19% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080A0B 99.74%);
+    }
+}
+/* tablet */
+@media screen and (min-width:768px) and (max-width:1023px){
+    .section1bg{
+        background-image: url(../../public/assets/bg.svg);
+        min-height: 100vh;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .innerdiv{
+        background-image:radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%);
+        min-height: 100vh;
+    }
+    .section2bg{
+        background-image: url(../../public/assets/bg\ image\ 2.svg);
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .section2_innerdiv{
+        background: radial-gradient(136.03% 54.57% at 50% 48.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080A0B 99.74%);
+    }
+    .section3bg{
+        background-image: url(../../public/assets/bg3.svg);
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .section3_innerdiv{
+        background: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%) ;
+    }
+    .section4bg{
+        background-image: url(../../public/assets/bg4.svg);
+        /* background-position:30%; */
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .innerdiv4{
+        background-image: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%);
+        min-height: 100vh;
+    }
+    .section5bg{
+        background-image: url(../../public/assets/section6bg.svg);
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .innerdiv5{
+
+        background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%);
+    }
+    .btn3{
+        background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    }
+    .innerdiv6{
+        background:rgba(8, 10, 11, 1);
+    }
+}
+/* Pc */
+@media screen and (min-width:1024px){
+        .section1bg{
+            background-image: url(../../public/assets/bg.svg);
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size:cover;
+            object-fit: cover;
+        }
+        .innerdiv{
+            background-image:radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%);
+            min-height: 100vh;
+        }
+        .section2bg{
+            background-image: url(../../public/assets/bg\ image\ 2.svg);
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .section2_innerdiv{
+            background: radial-gradient(136.03% 54.57% at 50% 48.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080A0B 99.74%);
+        }
+        .section3bg{
+            background-image: url(../../public/assets/bg3.svg);
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .section3_innerdiv{
+            background: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%) ;
+        }
+        .section4bg{
+            background-image: url(../../public/assets/bg4.svg);
+            /* background-position:30%; */
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .innerdiv4{
+            background-image: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%);
+            min-height: 100vh;
+        }
+        .section5bg{
+            background-image: url(../../public/assets/section6bg.svg);
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .innerdiv5{
+            /* background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%); */
+            background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%);
+        }
+        .btn3{
+            background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+        }
+        .innerdiv6{
+            background:rgba(8, 10, 11, 1);
+        }
+}
